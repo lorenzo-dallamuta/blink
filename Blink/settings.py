@@ -13,7 +13,7 @@ SECRET_KEY = '=8(v$qv^07suutcj8g0csc$72szgbn+9u5+@89ip@hblh-lcoh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', "165.227.136.235"]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', "46.101.199.42"]
 
 
 # Application definition
@@ -43,7 +43,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
-INTERNAL_IPS = ('127.0.0.1', '0.0.0.0', 'localhost', "165.227.136.235")
+INTERNAL_IPS = ('127.0.0.1', '0.0.0.0', 'localhost', "46.101.199.42")
 
 DEBUG_TOOLBAR_PANELS = [
     'debug_toolbar.panels.versions.VersionsPanel',
