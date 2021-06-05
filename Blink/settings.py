@@ -43,7 +43,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
-INTERNAL_IPS = ('127.0.0.1', '0.0.0.0', 'localhost',)
+INTERNAL_IPS = ('127.0.0.1', '0.0.0.0', 'localhost', "165.227.136.235")
 
 DEBUG_TOOLBAR_PANELS = [
     'debug_toolbar.panels.versions.VersionsPanel',
